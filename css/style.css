@@ -23,9 +23,9 @@ html {
     gap: 20%;
 }
 
-.title h2 {
+.title {
     color: #f9faf8;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .navbar ul {
@@ -47,13 +47,6 @@ html {
 #section1 {
     justify-content: center;
     padding: 5% 40px 7%;
-}
-
-.container {
-    max-width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
 .main-text h1 {
@@ -80,6 +73,7 @@ html {
     font-size: 16px;
     font-weight: bold;
     align-self: flex-start;
+    margin-top: 5px;
 }
 
 .btn:hover {
@@ -96,4 +90,50 @@ html {
     color: #9CA3AF;
     font-size: 16px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#section2 {
+    padding: 3% 40px 7%;
+    background-color: #F3F4F6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-header h3 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.illustrations {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+    width: 100%;
+}
+
+.illustration-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.illustration {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.illustration-placeholder p {
+    font-size: 14px;
+    color: #1F2937;
+    max-width: 150px;
+    margin-top: 5%;
 }
